@@ -101,11 +101,10 @@ router.post('/edit/:id', function(req, res, next){
         var article = new Article();
         var query = {_id:[req.params.id]};
         var update = {
-            title = req.body.title,
-            subtitle = req.body.subtitle,
-            category = req.body.category,
-            body = req.body.body,
-0           
+            title: req.body.title,
+            subtitle:req.body.subtitle,
+            category:req.body.category,
+            body: req.body.body           
         }
         
         Article.updateArticle(query, update, {}, function(err, article){
