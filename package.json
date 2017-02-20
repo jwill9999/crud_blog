@@ -1,5 +1,5 @@
 {
-  "name": "Blog_crud_login",
+  "name": "crud_blog",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -11,7 +11,7 @@
   },
    "repository": {
     "type": "git",
-    "url": "https://github.com/escapeimagery/Blog_crud_login.git"
+    "url": "git@github.com:jwill9999/crud_blog.git"
   },
   "license": "MIT",
   "main": "bin/www",
